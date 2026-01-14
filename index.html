@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chetan Kamatagi | Automation & Robotics Engineer</title>
+  <meta name="description"
+    content="Portfolio of Chetan Kamatagi, an Automation & Robotics Engineer and Python Developer." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap"
+    rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    referrerpolicy="no-referrer" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Three.js (CDN) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+
+<body>
+
+  <!-- Preloader -->
+  <div class="preloader">
+    <span class="loader"></span>
+  </div>
+
+  <!-- 3D Background Container -->
+  <div id="canvas-container"></div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header__inner">
+      <a href="#" class="brand">Chetan K.</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#about" class="nav__link">About</a>
+        <a href="#education" class="nav__link">Education</a>
+        <a href="#experience" class="nav__link">Experience</a>
+        <a href="#projects" class="nav__link">Projects</a>
+        <a href="#achievements" class="nav__link">Awards</a>
+        <a href="#contact" class="nav__link">Contact</a>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <h1 class="hero__title">Hello, I'm <br><span class="gradient-text">Chetan</span></h1>
+          <p class="hero__subtitle">Automation & Robotics Engineer | Python Developer | AI & Machine Learning Enthusiast
+          </p>
+
+          <div class="hero__actions">
+            <a href="Chetan_Kamatagi_Resume.pdf" download class="btn btn--primary">
+              <i class="fa-solid fa-download"></i> Download CV
+            </a>
+            <a href="#projects" class="btn btn--ghost">View Work</a>
+          </div>
+        </div>
+
+        <div class="hero__image-container">
+          <!-- Profile Image -->
+          <img src="Images/profile.jpg" alt="Chetan Kamatagi" class="hero__image">
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="card">
+          <p class="section__lead">
+            Hi, I’m Chetan. I build brains for machines. 🤖
+          </p>
+          <p>
+
+            As a Robotics Engineer and Python Developer passionate about building intelligent systems that bridge the
+            gap between software and the physical world. With a strong foundation in AI, Machine Learning, and Computer
+            Vision.
+            From winning national hackathons to building humanoid robots, I am dedicated to pushing the boundaries of
+            what automated systems can achieve.
+          </p>
+
+          <ul class="tags">
+            <li>Python</li>
+            <li>Machine Learning</li>
+            <li>Deep Learning</li>
+            <li>Neural Networks</li>
+            <li>Computer Vision</li>
+            <li>NLP</li>
+            <li>Generative AI</li>
+            <li>TensorFlow</li>
+            <li>PyTorch</li>
+            <li>Scikit-learn</li>
+            <li>Data Science</li>
+            <li>Pandas & NumPy</li>
+            <li>SQL</li>
+            <li>MLOps</li>
+            <li>Git & GitHub</li>
+            <li>ROS</li>
+            <li>Rviz</li>
+            <li>Gazebo</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section class="section" id="education">
+      <div class="container">
+        <h2>Education</h2>
+        <div class="grid"
+          style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px;">
+
+          <div class="card">
+            <img src="Images/College.jpg" alt="KLE Tech" class="card__image">
+            <h3>B.E. Automation & Robotics</h3>
+            <p class="card__org">KLE Technological University</p>
+            <p class="card__meta">2020 – 2024 • CGPA: 9.2/10</p>
+          </div>
+
+          <div class="card">
+            <img src="Images/PU college.jpg" alt="PU College" class="card__image">
+            <h3>Pre-University (Science)</h3>
+            <p class="card__org">KLE's C.S. Angadi PU College</p>
+            <p class="card__meta">2018 – 2020 • 92.53%</p>
+          </div>
+
+          <div class="card">
+            <img src="Images/School Image.jpg" alt="School" class="card__image">
+            <h3>Secondary School</h3>
+            <p class="card__org">Modern English Medium High School</p>
+            <p class="card__meta">2018 • 91.68%</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section class="section" id="experience">
+      <div class="container">
+        <h2>Experience</h2>
+        <div class="grid"
+          style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px;">
+
+          <div class="card">
+            <img src="Images/Engineer 2.jpg" alt="Tata Electronics" class="card__image">
+            <h3>Engineer 2</h3>
+            <p class="card__meta">Tata Electronics | Jul 2025 – Present</p>
+            <p>Automating quality reporting with Python, saving 2+ hours/week. Enhancing efficiency in system solutions.
+            </p>
+          </div>
+
+          <div class="card">
+            <img src="Images/GET.jpg" alt="Tata Electronics" class="card__image">
+            <h3>Graduate Engineering Trainee</h3>
+            <p class="card__meta">Tata Electronics | Jul 2024 – Jun 2025</p>
+            <p>Executed Kaizen projects saving ₹25 lakhs/year. Collaborated with CFT to improve first-pass yields.</p>
+          </div>
+
+          <div class="card">
+            <img src="Images/TEPL.jpg" alt="Tata Electronics" class="card__image">
+            <h3>Graduate Engineering Intern</h3>
+            <p class="card__meta">Tata Electronics | Jan 2024 – Jun 2024</p>
+            <p>Developed PLC/Sensor-based control systems for Special Purpose Machines (SPM).</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION (CAROUSEL) -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2>Featured Projects</h2>
+
+        <div class="carousel-container">
+          <button class="carousel-button carousel-button--left" id="proj-prev" aria-label="Previous Project">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+
+          <div class="carousel-track-container">
+            <div class="carousel-track project-track">
+
+              <!-- Project New (RAG Bot) -->
+              <article class="carousel-slide">
+                <div class="card">
+                  <img src="Images/RAG_Bot.png" alt="AI Chat Bot" class="card__image">
+                  <h3>AI Chat Bot (RAG)</h3>
+                  <p>Assistant bot that answers questions from user-uploaded documents using Groq LLM & Streamlit.</p>
+                  <ul class="tags">
+                    <li>Python</li>
+                    <li>Streamlit</li>
+                    <li>Groq API</li>
+                    <li>RAG</li>
+                    <li>Git</li>
+                  </ul>
+                  <br>
+                  <a href="https://github.com/ChetanKamatagi/RAG_AI_BOT" target="_blank" class="btn btn--ghostWrapper"
+                    style="margin-top:auto; display:inline-block; color:var(--primary);">
+                    View on GitHub <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </article>
+
+              <!-- Project 1 -->
+              <article class="carousel-slide">
+                <div class="card">
+                  <img src="Images/Humanoid.jpg" alt="Humanoid Robot" class="card__image">
+                  <h3>Maya 3.0 - Humanoid Robot</h3>
+                  <p>AI-powered humanoid with autonomous navigation and GPT-based voice interaction for immersive HRI.
+                  </p>
+                  <ul class="tags">
+                    <li>Python</li>
+                    <li>NLP</li>
+                    <li>GPT</li>
+                    <li>ROS</li>
+                  </ul>
+                  <br>
+                  <a href="https://github.com/ChetanKamatagi/Humanoid-Robot" target="_blank"
+                    class="btn btn--ghostWrapper" style="margin-top:auto; display:inline-block; color:var(--primary);">
+                    View on GitHub <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </article>
+
+              <!-- Project 2 -->
+              <article class="carousel-slide">
+                <div class="card">
+                  <img src="Images/Tomato_sorter.jpg" alt="Robotic Arm" class="card__image">
+                  <h3>Dynamic Tomato Sorting</h3>
+                  <p>Vision-guided 6-DOF Cobot sorting tomatoes by ripeness using real-time computer vision.</p>
+                  <ul class="tags">
+                    <li>OpenCV</li>
+                    <li>Python</li>
+                    <li>ROS</li>
+                    <li>MoveIt</li>
+                  </ul>
+                  <br>
+                  <a href="https://github.com/ChetanKamatagi/6_DOF_Robotic_arm" target="_blank"
+                    class="btn btn--ghostWrapper" style="margin-top:auto; display:inline-block; color:var(--primary);">
+                    View on GitHub <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </article>
+
+              <!-- Project 3 -->
+              <article class="carousel-slide">
+                <div class="card">
+                  <img src="Images/SIH.jpg" alt="Traffic System" class="card__image">
+                  <h3>Smart Traffic Control</h3>
+                  <p>Decentralized system using Raspberry Pi nodes and YOLOv5 to optimize traffic signals based on
+                    density.</p>
+                  <ul class="tags">
+                    <li>YOLOv5</li>
+                    <li>Python</li>
+                    <li>IoT</li>
+                    <li>CV</li>
+                  </ul>
+                  <br>
+                  <a href="https://github.com/ChetanKamatagi/Decentralized-Traffic-Control-System" target="_blank"
+                    class="btn btn--ghostWrapper" style="margin-top:auto; display:inline-block; color:var(--primary);">
+                    View on GitHub <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </article>
+
+              <!-- Project 4 -->
+              <article class="carousel-slide">
+                <div class="card">
+                  <img src="Images/Dishwasher_Team.jpg" alt="Dishwasher" class="card__image">
+                  <h3>Smart Dishwasher</h3>
+                  <p>Microcontroller-based automation optimizing washing cycles and energy usage for industrial needs.
+                  </p>
+                  <ul class="tags">
+                    <li>Arduino</li>
+                    <li>Sensors</li>
+                    <li>Embedded C</li>
+                  </ul>
+                  <br>
+                  <a href="https://github.com/ChetanKamatagi/Dishwasher" target="_blank" class="btn btn--ghostWrapper"
+                    style="margin-top:auto; display:inline-block; color:var(--primary);">
+                    View on GitHub <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </article>
+
+              <!-- Project 5 (Pet Feeder) -->
+              <article class="carousel-slide">
+                <div class="card">
+                  <img src="Images/Pet_Feeding_robot.png" alt="Pet Feeding Robot" class="card__image">
+                  <h3>Pet Feeding Robot</h3>
+                  <p>IoT-based pet feeder that dispenses food at scheduled intervals or via user commands.</p>
+                  <ul class="tags">
+                    <li>Arduino Mega</li>
+                    <li>IoT</li>
+                    <li>SolidWorks</li>
+                    <li>Circuit Design</li>
+                  </ul>
+                  <br>
+                  <a href="https://github.com/ChetanKamatagi/Pet-Feeding-Robot" target="_blank"
+                    class="btn btn--ghostWrapper" style="margin-top:auto; display:inline-block; color:var(--primary);">
+                    View on GitHub <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </article>
+
+            </div>
+          </div>
+
+          <button class="carousel-button carousel-button--right" id="proj-next" aria-label="Next Project">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS SECTION (CAROUSEL) -->
+    <section class="section" id="achievements">
+      <div class="container">
+        <h2>Awards & Certificates</h2>
+
+        <div class="carousel-container">
+          <button class="carousel-button carousel-button--left" id="ach-prev" aria-label="Previous Award">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+
+          <div class="carousel-track-container">
+            <div class="carousel-track achieve-track">
+
+              <!-- Cert 1 -->
+              <div class="carousel-slide">
+                <a href="#" class="card card--bg"
+                  style="text-decoration:none; color: inherit; --card-bg-img: url('Images/SIH_Certificate.jpg');">
+                  <h3>🏆 SIH Winner 2022</h3>
+                  <p class="card__org">Smart India Hackathon</p>
+                  <p>National Winner for solving complex problem statements using Python and ML.</p>
+                  <ul class="tags">
+                    <li>Hackathon</li>
+                    <li>National Level</li>
+                  </ul>
+                </a>
+              </div>
+
+              <!-- Cert 2 -->
+              <div class="carousel-slide">
+                <a href="#" class="card card--bg"
+                  style="text-decoration:none; color: inherit; --card-bg-img: url('Images/MLOps_Certificate.jpg');">
+                  <h3>🤖 ML Operations</h3>
+                  <p class="card__org">KrishAI Technologies</p>
+                  <p>Specialized training in MLOps and deploying scalable AI solutions.</p>
+                  <ul class="tags">
+                    <li>MLOps</li>
+                    <li>Deployment</li>
+                  </ul>
+                </a>
+              </div>
+
+              <!-- Cert 3 -->
+              <div class="carousel-slide">
+                <a href="#" class="card card--bg"
+                  style="text-decoration:none; color: inherit; --card-bg-img: url('Images/Rinex_Certificate.jpg');">
+                  <h3>🎓 Data Science</h3>
+                  <p class="card__org">Rinex</p>
+                  <p>Comprehensive training in Data Science methodologies and tools.</p>
+                  <ul class="tags">
+                    <li>Data Science</li>
+                  </ul>
+                </a>
+              </div>
+
+              <!-- Cert 4 -->
+              <div class="carousel-slide">
+                <a href="#" class="card card--bg"
+                  style="text-decoration:none; color: inherit; --card-bg-img: url('Images/IBM_ML_Certificate.jpeg');">
+                  <h3>📜 IBM ML Certified</h3>
+                  <p class="card__org">IBM Coursera</p>
+                  <p>Machine Learning with Python - In-depth certification on model building and deployment.</p>
+                  <ul class="tags">
+                    <li>IBM</li>
+                    <li>Certification</li>
+                  </ul>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <button class="carousel-button carousel-button--right" id="ach-next" aria-label="Next Award">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="container section">
+      <div style="text-align:center; color: var(--text-muted);">
+        <p>&copy; 2026 Chetan Kamatagi. Built with ❤️ and Code.</p>
+        <div class="tags" style="justify-content: center; margin-top: 1rem;">
+          <a href="https://linkedin.com/in/chetan-kamatagi" target="_blank" class="nav__link"><i
+              class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/chetankamatagi" target="_blank" class="nav__link"><i
+              class="fa-brands fa-github"></i></a>
+          <a href="mailto:kamatagichetan8@gmail.com" class="nav__link"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://www.youtube.com/@kamatagichetan6491" target="_blank" class="nav__link"><i
+              class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+
+</html>
