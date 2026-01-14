@@ -1,40 +1,46 @@
-# Modern 3D Portfolio
+# 🤖 Chetan Kamatagi | Portfolio
 
-A premium, interactive portfolio site built with HTML, CSS, Vanilla JS, and Three.js.
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-## Features
-- **3D Interactive Background**: Particle system using Three.js.
-- **Glassmorphism Design**: Modern, translucent UI with blur effects.
-- **Infinite Gallery**: Carousel for Projects and Achievements with infinite loop logic.
-- **Dark/Light Mode**: Automatic theme detection and toggle.
-- **3D Card Tilt**: Cards react to mouse movement.
+> **Automation & Robotics Engineer | Python Developer | AI & ML Enthusiast**
 
-## How to Deploy (GitHub + Render)
+Professional portfolio showcasing work at the intersection of Hardware and AI.
 
-This site is a static website, making it free and easy to host.
+🔗 **[Live Demo](https://chetan-kamatagi.netlify.app/)**
 
-### Step 1: Push to GitHub
-1. Initialize a git repository if you haven't already:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   ```
-2. Create a new repository on GitHub.
-3. Push your code:
-   ```bash
-   git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-   git branch -M main
-   git push -u origin main
-   ```
+---
 
-### Step 2: Deploy on Render
-1. Create a free account at [render.com](https://render.com).
-2. Click **New +** -> **Static Site**.
-3. Connect your GitHub account and select your portfolio repository.
-4. **Build Settings**:
-   - **Build Command**: (Leave empty)
-   - **Publish Directory**: `.` (or leave empty, as index.html is in the root)
-5. Click **Create Static Site**.
+## 🛠️ Tech Stack
 
-Render will automatically deploy your site and provide a free URL (e.g., `your-name.onrender.com`). Every time you push changes to GitHub, Render will auto-deploy the updates.
+*   **Frontend:** HTML5, CSS3, Vanilla JavaScript, Spline (3D)
+*   **Core:** Python, ROS, OpenCV, TensorFlow, YOLOv5
+*   **Deployment:** Netlify, GitHub Pages
+
+---
+
+## 🚀 Featured Projects
+
+### 1. Maya 3.0 - Humanoid Robot
+AI-powered humanoid with autonomous navigation and GPT-based voice interaction.
+*   **Tech:** Python, NLP, ROS, Image Processing
+*   👉 [View Repository](https://github.com/ChetanKamatagi/Humanoid-Robot)
+
+### 2. Vision-Guided Tomato Sorting
+Automated sorting using a 6-DOF Robotic Arm and real-time Computer Vision.
+*   **Tech:** OpenCV, MATLAB, MoveIt, Raspberry Pi
+*   👉 [View Repository](https://github.com/ChetanKamatagi/6_DOF_Robotic_arm)
+
+### 3. Smart Traffic Control
+**SIH 2022 Winner** - Decentralized traffic optimization using YOLOv5.
+*   **Tech:** YOLOv5, IoT, Computer Vision
+*   👉 [View Repository](https://github.com/ChetanKamatagi/Decentralized-Traffic-Control-System)
+
+---
+
+## 🏁 Getting Started
+
+```bash
+git clone https://github.com/ChetanKamatagi/Chetan_Portfolio.git
+```
